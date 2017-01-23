@@ -37,6 +37,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 110px;
+  color: #999999;
 }
 
 .title {
@@ -50,7 +51,7 @@
   margin-top: 10px;
   margin-bottom: 50px;
   text-align: left;
-  color: white;
+  color: ＃999999;
   top: 12px;
 }
 
@@ -159,4 +160,10 @@
     letter-spacing: 3px;//调整文字间距
     border-radius: 3px;//btn圆角
     width: 200px;//这里用指定宽度把btn拉得更长
+}
+
+.navbar-default {
+    background-color: #212121;//背景颜色
+    border-color: #212121;//边框色
+    margin-bottom: 0;//底部 margin 不撑开距离
 }
